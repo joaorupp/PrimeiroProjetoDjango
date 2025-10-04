@@ -23,7 +23,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
-        cd PrimeiroProjetoDjango
+        cd primeiro_projeto
         git pull
     - name: Run Tests
       run: |
